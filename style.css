@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  background-color: #eaeaea;
 }
 
 .header-hero {
@@ -11,18 +12,33 @@ body {
   height: 100vh;
   width: 100vw;
 }
-
-.name {
-  font-size: 3rem;
-  text-align: center;
+.favi {
+  background: url("./pics/favi.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 150px;
   position: absolute;
-  top: 30%;
   left: 50%;
   transform: translateX(-50%);
+  top: 15%;
+  /* background-color: black; */
+}
+.name {
+  font-size: 3.5rem;
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 25px;
 }
 .arrow {
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -64,12 +80,12 @@ body {
   background: url("./pics/bg3.jpg");
   /* background-color: green; */
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 90%;
-  height: 400px;
+  width: 100%;
+  height: 450px;
   margin: 0 auto;
   /* border: 0px solid black; */
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
